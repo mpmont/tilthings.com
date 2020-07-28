@@ -1,6 +1,6 @@
 * {
 	outline: none;
-	--theme-color: #7a47e0;
+	--theme-color: #f78e66;
 }
 body {
 	color: rgb(167, 158, 139) !important;
@@ -82,7 +82,7 @@ main {
 .post-list a:before,
 .post-list a:before {
 	content: "#";
-	color: #7a47e0;
+	color: #42b983;
 	position: absolute;
 	left: -0.8em;
 	font-weight: bold;

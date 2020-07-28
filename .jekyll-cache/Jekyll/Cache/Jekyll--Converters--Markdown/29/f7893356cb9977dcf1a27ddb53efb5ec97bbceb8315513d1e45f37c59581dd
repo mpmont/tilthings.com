@@ -1,0 +1,33 @@
+I"�<p>Let’s go into a deap dive about the codeigniter folder structure.</p>
+
+<p>/proc/self/
+|– attr
+|– cwd -&gt; /proc
+|– fd
+|   <code class="highlighter-rouge">-- 3 -&gt; /proc/15589/fd
+|-- fdinfo
+|-- net
+|   |-- dev_snmp6
+|   |-- netfilter
+|   |-- rpc
+|   |   |-- auth.rpcsec.context
+|   |   |-- auth.rpcsec.init
+|   |   |-- auth.unix.gid
+|   |   |-- auth.unix.ip
+|   |   |-- nfs4.idtoname
+|   |   |-- nfs4.nametoid
+|   |   |-- nfsd.export
+|   |   </code>– nfsd.fh
+|   <code class="highlighter-rouge">-- stat
+|-- root -&gt; /
+</code>– task
+    <code class="highlighter-rouge">-- 15589
+        |-- attr
+        |-- cwd -&gt; /proc
+        |-- fd
+        | </code>– 3 -&gt; /proc/15589/task/15589/fd
+        |– fdinfo
+        `– root -&gt; /</p>
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/pCpIuGSGSsk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+:ET

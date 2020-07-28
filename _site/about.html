@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TIL Things | Marco Monteiro</title>
+  <link rel="stylesheet" href="/assets/css/mark.css" />
+  <link rel="stylesheet" href="/assets/css/custom.css" />
+  <!-- PILL JS LOADER SYLE -->
+  <style>
+    #indicator {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      display: none;
+      background-color: #72b6b5;
+    }
+
+    .is-loading {
+      display: block;
+      animation: blink 1.5s linear infinite;
+    }
+
+    @keyframes blink {
+      from,
+      to {
+        background-color: #72b6b5;
+      }
+
+      50% {
+        background-color: #42b983;
+      }
+    }
+
+    #project-link {
+      display: block;
+      position: fixed;
+      padding: 8px;
+      top: 0;
+      right: 0;
+    }
+  </style>
+  <!-- PILL JS -->
+  <script src="/assets/js/pill.min.js"></script>
+  <script>
+    // this is for pill js as the normal link wont work
+    function openLink(url) {
+      window.open(url, "_blank");
+    }
+  </script>
+</head>
+
+  <body>
+    <div id="indicator"></div>
+    <div id="page">
+      <!-- header -->
+      <header>
+	<a href="/">
+		<img src="/assets/img/header.jpg"/>
+	</a>
+</header>
+
+      <!-- nav -->
+      <nav>
+	
+		
+			<a href="/">Home</a>
+		
+	
+		
+			<a href="/about">About</a>
+		
+	
+		
+			<a href="#!" onclick="openLink('/feed.xml')">Feed</a>
+		
+	
+</nav>
+      <!-- page content -->
+      <main class="content">
+        <div class="author-bio">
+          <img src="" alt="" />
+          <p></p>
+        </div>
+        <p>For more than 10 years now I maintained my blog where I share stuff that I learn. So I decided to start making an experiment and share some of the things that I learn on youtube. I hope you like it.</p>
+
+<p>Hence the name: Today I Leaned Things.</p>
+
+<p><a href="https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w?view_as=subscriber">Youtube</a>
+<a href="https://blog.marcomonteiro.net">Personal Blog</a>
+<a href="https://marcomonteiro.net">Website</a>
+<a href="https://github.com/mpmont">Github</a></p>
+
+      </main>
+
+      <!-- footer -->
+      <footer>
+	<p>
+		&copy 2020 | TIL Things
+	</p>
+</footer>
+<script src='/assets/js/site.js' id="pill_site_script" type='module'></script>
+    </div>
+  </body>
+</html>

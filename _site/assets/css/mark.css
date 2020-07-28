@@ -1,6 +1,6 @@
 * {
 	font-family: monospace;
-	--theme-color: #7a47e0;
+	--theme-color: #f78e66;
 }
 
 p {
@@ -55,7 +55,7 @@ h6 {
 	color: var(--theme-color);
 	position: relative;
 }
-/*
+/* 
 h1:before,
 h2:before {
 	content: "#";
@@ -79,11 +79,8 @@ h2 {
 
 a {
 	/* color: #ffa0c0 !important; */
-	color: var(--theme-color) !important;
-	text-decoration: none!important;
-}
-a:hover{
-    text-decoration: underline!important;
+	color: #2ab375 !important;
+	text-decoration: none;
 }
 
 ul,

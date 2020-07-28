@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>TIL Things | Learning Codeigniter 4 folder structure</title>
+  <link rel="stylesheet" href="/assets/css/mark.css" />
+  <link rel="stylesheet" href="/assets/css/custom.css" />
+  <!-- PILL JS LOADER SYLE -->
+  <style>
+    #indicator {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      display: none;
+      background-color: #72b6b5;
+    }
+
+    .is-loading {
+      display: block;
+      animation: blink 1.5s linear infinite;
+    }
+
+    @keyframes blink {
+      from,
+      to {
+        background-color: #72b6b5;
+      }
+
+      50% {
+        background-color: #42b983;
+      }
+    }
+
+    #project-link {
+      display: block;
+      position: fixed;
+      padding: 8px;
+      top: 0;
+      right: 0;
+    }
+  </style>
+  <!-- PILL JS -->
+  <script src="/assets/js/pill.min.js"></script>
+  <script>
+    // this is for pill js as the normal link wont work
+    function openLink(url) {
+      window.open(url, "_blank");
+    }
+  </script>
+</head>
+
+  <body>
+    <div id="indicator"></div>
+    <div id="page">
+      <!-- header -->
+      <header>
+	<a href="/">
+		<img src="/assets/img/header.jpg"/>
+	</a>
+</header>
+
+      <!-- nav -->
+      <nav>
+	
+		
+			<a href="/">Home</a>
+		
+	
+		
+			<a href="/about">About</a>
+		
+	
+		
+			<a href="#!" onclick="openLink('/feed.xml')">Feed</a>
+		
+	
+</nav>
+      <!-- page content -->
+      <main class="content">
+        <p class="title">
+          Learning Codeigniter 4 folder structure <span class="meta">Written By Marco Monteiro <br> July 06, 2020</span>
+        </p>
+        <p>Let’s go into a deap dive about the codeigniter folder structure.</p>
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/pCpIuGSGSsk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+        <div class="post-categories">
+            
+            
+                Codeigniter
+                &nbsp;
+            
+                PHP
+                &nbsp;
+            
+                Web Dev
+                
+            
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer>
+	<p>
+		&copy 2020 | TIL Things
+	</p>
+</footer>
+<script src='/assets/js/site.js' id="pill_site_script" type='module'></script>
+    </div>
+  </body>
+</html>
