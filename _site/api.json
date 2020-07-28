@@ -5,14 +5,14 @@
         
             {
                 "title": "Learning Codeigniter 4 - Views",
-                "content_text": "Let’s go into a deap dive about Codeigniter 4 Views.",
-                "content_html": "<p>Let’s go into a deap dive about Codeigniter 4 Views.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/qfYKzf4q5Ig\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+                "content_text": "Let’s go into a deap dive about Codeigniter 4 Views. On this episode we talk about views. How to use them, how to create them and how to use and create dinamic layouts.",
+                "content_html": "<p>Let’s go into a deap dive about Codeigniter 4 Views. On this episode we talk about views. How to use them, how to create them and how to use and create dinamic layouts.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/qfYKzf4q5Ig\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
                 "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/24/Learning-codeigniter-4-views/",
                 
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
-                "tags": ["Codeigniter"],
+                "tags": ["Codeigniter, codeigniter 4, views, mvc, framework, webdev, how to, setup, php"],
                 "date_published": "2020-07-24T00:00:00+01:00",
                 "date_modified": "2020-07-24T00:00:00+01:00",
                 
@@ -22,14 +22,14 @@
         
             {
                 "title": "Learning Codeigniter 4 - Controllers",
-                "content_text": "Let’s go into a deap dive about Codeigniter 4 controllers.",
-                "content_html": "<p>Let’s go into a deap dive about Codeigniter 4 controllers.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/qy4CVy0P1Gg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+                "content_text": "Let’s go into a deap dive about Codeigniter 4 controllers. Here we explore Controllers. How to use them, how to create them and how to extend the BaseController that comes with Codeigniter.",
+                "content_html": "<p>Let’s go into a deap dive about Codeigniter 4 controllers. Here we explore Controllers. How to use them, how to create them and how to extend the BaseController that comes with Codeigniter.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/qy4CVy0P1Gg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
                 "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/12/Learning-Codeigniter-4-Controllers/",
                 
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
-                "tags": ["Codeigniter"],
+                "tags": ["Codeigniter, codeigniter 4, webdev, controllers, tutorial, how to, mvc, framework"],
                 "date_published": "2020-07-12T00:00:00+01:00",
                 "date_modified": "2020-07-12T00:00:00+01:00",
                 
@@ -38,15 +38,15 @@
             },
         
             {
-                "title": "Learning Codeigniter 4 folder structure",
-                "content_text": "Let’s go into a deap dive about the codeigniter folder structure.",
-                "content_html": "<p>Let’s go into a deap dive about the codeigniter folder structure.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/pCpIuGSGSsk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+                "title": "Learning Codeigniter 4 - Folder structure",
+                "content_text": "Let’s go into a deap dive about the codeigniter folder structure.Codeigniter|-- App|   |-- Config|   |-- Controllers|   |-- Database|   |-- Filters|   |-- Helpers|   |-- Language|   |-- Libraries|   |-- Models|   |-- ThirdParty|   |-- Views|-- Public|-- System|-- Tests|-- WritableThis is the basic Codeigniter 4 structure. On this video you’ll learn all about it.",
+                "content_html": "<p>Let’s go into a deap dive about the codeigniter folder structure.</p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>Codeigniter|-- App|   |-- Config|   |-- Controllers|   |-- Database|   |-- Filters|   |-- Helpers|   |-- Language|   |-- Libraries|   |-- Models|   |-- ThirdParty|   |-- Views|-- Public|-- System|-- Tests|-- Writable</code></pre></div></div><p>This is the basic Codeigniter 4 structure. On this video you’ll learn all about it.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/pCpIuGSGSsk\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
                 "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/06/learning-codeigniter-4-folder-structure/",
                 
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
-                "tags": ["Codeigniter"],
+                "tags": ["Codeigniter, php, codeigniter4, webdev, folder structure, tutorial"],
                 "date_published": "2020-07-06T00:00:00+01:00",
                 "date_modified": "2020-07-06T00:00:00+01:00",
                 
@@ -55,7 +55,7 @@
             },
         
             {
-                "title": "How to setup Codeigniter 4",
+                "title": "Learning Codeigniter 4 - How to setup Codeigniter 4",
                 "content_text": "I started a brand new youtube channel. It’s called TIL Things. As in Today I Learned Things. The idea is to share kinda the same thing I normally do here but in a video format.To start things, I decided to do a video series about Codeigniter 4, from how to install it, how it works and building a small blog application with it.Here’s the first video. I hope you can enjoy it and if you do please consider liking and subscribing.All the code that will exist in these series will live in the following github repository.Github",
                 "content_html": "<p>I started a brand new <a href=\"https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w\">youtube channel</a>. It’s called <a href=\"https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w\">TIL Things</a>. As in Today I Learned Things. The idea is to share kinda the same thing I normally do here but in a video format.</p><p>To start things, I decided to do a video series about Codeigniter 4, from how to install it, how it works and building a small blog application with it.</p><p>Here’s the first video. I hope you can enjoy it and if you do please consider liking and subscribing.</p><iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/tSdbT0GMEqU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe><p>All the code that will exist in these series will live in the following github repository.</p><p><a href=\"https://github.com/mpmont/ci4-screencasts\">Github</a></p>",
                 "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/03/how-to-setup-codeigniter/",
@@ -63,7 +63,7 @@
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
-                "tags": ["Codeigniter"],
+                "tags": ["Codeigniter, codeigniter 4, webdev, php, mvc, framework, tutorial, install, setup"],
                 "date_published": "2020-07-03T00:00:00+01:00",
                 "date_modified": "2020-07-03T00:00:00+01:00",
                 

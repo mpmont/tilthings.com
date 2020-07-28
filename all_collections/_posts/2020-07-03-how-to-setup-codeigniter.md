@@ -1,8 +1,9 @@
 ---
 layout: post
-title: How to setup Codeigniter 4
+title: Learning Codeigniter 4 - How to setup Codeigniter 4
 date: 2020-07-03
-tag: Codeigniter
+tag: Codeigniter, codeigniter 4, webdev, php, mvc, framework, tutorial, install, setup
+description: To start things, I decided to do a video series about Codeigniter 4, from how to install it, how it works and building a small blog application with it. Here's the first video. I hope you can enjoy it and if you do please consider liking and subscribing.
 author: Marco Monteiro
 categories: ["Codeigniter", "PHP", "Web Dev"]
 ---
