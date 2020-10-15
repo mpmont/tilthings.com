@@ -103,8 +103,12 @@ main {
 footer {
 	font-weight: bold;
 	color: #72b6b5;
-	font-size: 0.7rem;
+	font-size: 1.7rem;
 	margin: 4rem 20% 4rem 20%;
+}
+
+footer p{
+    text-align: center;
 }
 
 @media screen and (max-width: 780px) {
