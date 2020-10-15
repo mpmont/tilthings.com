@@ -3,7 +3,7 @@
 	--theme-color: #7a47e0;
 }
 body {
-	color: rgb(167, 158, 139) !important;
+	color: #ffffff !important;
 }
 
 img {
@@ -34,7 +34,7 @@ nav {
 nav a {
 	color: #fff !important;
 	padding-right: 2rem;
-	font-size: 1rem;
+	font-size: 3rem;
 	font-weight: bold;
 }
 

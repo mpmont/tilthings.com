@@ -28,7 +28,9 @@ strong {
 body {
 	font-size: 15px;
 	/* background: #000c07; */
-	background: rgb(16, 20, 23) !important;
+	background: #000 !important;
+    padding: 0;
+    margin: 0;
 }
 
 pre {
