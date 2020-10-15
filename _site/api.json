@@ -7,14 +7,14 @@
                 "title": "Creating a contact manager with Codeigniter 4 - Installation",
                 "content_text": "On this video we start to create our codeigniter project. We’ll be creating a contact manager.All the code on this video can be seen on the following github repository.Repositories used in the project:Codeigniter4/AppStarter$ composer create-project codeigniter4/appstarter ./Bootstrap$ npm install bootstrapjQuery$ npm install jquery  Codeigniter: Codeigniter  Blog: blog.marcomonteiro.net  Website: marcomonteiro.net  Patreon: patreon.com/tilthings  Youtube: Youtube Channel",
                 "content_html": "<p>On this video we start to create our codeigniter project. We’ll be creating a contact manager.</p><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/cUFS9Vm9-ZU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe><p>All the code on this video can be seen on the following <a href=\"https://github.com/mpmont/tilthings-ci4-contact-manager\">github repository</a>.</p><p>Repositories used in the project:</p><p><a href=\"https://github.com/codeigniter4/appstarter\">Codeigniter4/AppStarter</a></p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>$ composer create-project codeigniter4/appstarter ./</code></pre></div></div><p><a href=\"https://getbootstrap.com/docs/4.5/getting-started/download/\">Bootstrap</a></p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>$ npm install bootstrap</code></pre></div></div><p><a href=\"https://jquery.com/download/\">jQuery</a></p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>$ npm install jquery</code></pre></div></div><ul>  <li>Codeigniter: <a href=\"https://codeigniter.com/\">Codeigniter</a></li>  <li>Blog: <a href=\"https://blog.marcomonteiro.net/\">blog.marcomonteiro.net</a></li>  <li>Website: <a href=\"https://marcomonteiro.net/\">marcomonteiro.net</a></li>  <li>Patreon: <a href=\"https://www.patreon.com/tilthings\">patreon.com/tilthings</a></li>  <li>Youtube: <a href=\"https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w\">Youtube Channel</a></li></ul>",
-                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/09/19/Creating-a-contact-manager-with-codeigniter-4-installation/",
+                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/10/15/Creating-a-contact-manager-with-codeigniter-4-installation/",
                 
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
                 "tags": ["Codeigniter, codeigniter 4, models, mvc, framework, webdev, how to, setup, php"],
-                "date_published": "2020-09-19T00:00:00+01:00",
-                "date_modified": "2020-09-19T00:00:00+01:00",
+                "date_published": "2020-10-15T00:00:00+01:00",
+                "date_modified": "2020-10-15T00:00:00+01:00",
                 
                 "author":  "Marco Monteiro" 
                 
@@ -24,14 +24,14 @@
                 "title": "Learning Codeigniter 4 - Sessions",
                 "content_text": "",
                 "content_html": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/lZVI06-I3Dg\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
-                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/09/19/Learning-codeigniter-4-sessions/",
+                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/10/03/Learning-codeigniter-4-sessions/",
                 
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
                 "tags": ["Codeigniter, codeigniter 4, models, mvc, framework, webdev, how to, setup, php"],
-                "date_published": "2020-09-19T00:00:00+01:00",
-                "date_modified": "2020-09-19T00:00:00+01:00",
+                "date_published": "2020-10-03T00:00:00+01:00",
+                "date_modified": "2020-10-03T00:00:00+01:00",
                 
                 "author":  "Marco Monteiro" 
                 
@@ -58,14 +58,14 @@
                 "title": "Learning Codeigniter 4 - Model Validation",
                 "content_text": "",
                 "content_html": "<iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/V4vOJTYlJCY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
-                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/24/Learning-codeigniter-4-model-validation/",
+                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/08/22/Learning-codeigniter-4-model-validation/",
                 
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
                 "tags": ["Codeigniter, codeigniter 4, models, mvc, framework, webdev, how to, setup, php"],
-                "date_published": "2020-07-24T00:00:00+01:00",
-                "date_modified": "2020-07-24T00:00:00+01:00",
+                "date_published": "2020-08-22T00:00:00+01:00",
+                "date_modified": "2020-08-22T00:00:00+01:00",
                 
                 "author":  "Marco Monteiro" 
                 
@@ -75,14 +75,14 @@
                 "title": "Learning Codeigniter 4 - Models",
                 "content_text": "",
                 "content_html": "<iframe width=\"100%\" height=\"400\" src=\"https://www.youtube.com/embed/ESYW4gpdHNo\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
-                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/24/Learning-codeigniter-4-models/",
+                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/2020/08/04/Learning-codeigniter-4-models/",
                 
                 
                 "categories": ["Codeigniter","PHP","Web Dev"],                
                 
                 "tags": ["Codeigniter, codeigniter 4, models, mvc, framework, webdev, how to, setup, php"],
-                "date_published": "2020-07-24T00:00:00+01:00",
-                "date_modified": "2020-07-24T00:00:00+01:00",
+                "date_published": "2020-08-04T00:00:00+01:00",
+                "date_modified": "2020-08-04T00:00:00+01:00",
                 
                 "author":  "Marco Monteiro" 
                 

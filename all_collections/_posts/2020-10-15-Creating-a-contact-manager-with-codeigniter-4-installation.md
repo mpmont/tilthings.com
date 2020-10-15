@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creating a contact manager with Codeigniter 4 - Installation
-date: 2020-09-19
+date: 2020-10-15
 tag: Codeigniter, codeigniter 4, models, mvc, framework, webdev, how to, setup, php
 description: On this episode we start creating the new project.
 author: Marco Monteiro

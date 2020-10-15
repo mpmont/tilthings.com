@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning Codeigniter 4 - Models
-date: 2020-07-24
+date: 2020-08-04
 tag: Codeigniter, codeigniter 4, models, mvc, framework, webdev, how to, setup, php
 description: On this episode we talk about Codeigniter models.
 author: Marco Monteiro
