@@ -4,6 +4,23 @@
     "posts": [
         
             {
+                "title": "Getting to know the command line",
+                "content_text": "On this video we talk about the most important tool in your linux machine, the command line. In it we go over what is the prompt, what it means and some basic commands like:$ whoami    = Who am I?$ pwd       = Where am I?$ ls        = What can I see?$ cd        = Going some place?$ cp        = Copy stuuf$ mv        = Move stuff  Blog: blog.marcomonteiro.net  Website: marcomonteiro.net  Patreon: patreon.com/tilthings  Youtube: Youtube Channel",
+                "content_html": "<p>On this video we talk about the most important tool in your linux machine, the command line. In it we go over what is the prompt, what it means and some basic commands like:</p><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/pBCyCmfXVZ0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>$ whoami    = Who am I?$ pwd       = Where am I?$ ls        = What can I see?$ cd        = Going some place?$ cp        = Copy stuuf$ mv        = Move stuff</code></pre></div></div><ul>  <li>Blog: <a href=\"https://blog.marcomonteiro.net/\">blog.marcomonteiro.net</a></li>  <li>Website: <a href=\"https://marcomonteiro.net/\">marcomonteiro.net</a></li>  <li>Patreon: <a href=\"https://www.patreon.com/tilthings\">patreon.com/tilthings</a></li>  <li>Youtube: <a href=\"https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w\">Youtube Channel</a></li></ul>",
+                "url": "http://localhost:4000/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line/",
+                
+                
+                "categories": ["cli","linux","prompt","bash"],                
+                
+                "tags": ["linux, command line, cli, bash, prompt"],
+                "date_published": "2020-10-25T00:00:00+01:00",
+                "date_modified": "2020-10-25T00:00:00+01:00",
+                
+                "author":  "Marco Monteiro" 
+                
+            },
+        
+            {
                 "title": "Creating the Database",
                 "content_text": "On this video we start to create the database for our project.All the code on this video can be seen on the following github repository.Repositories used in the project:Benedmunds/codeinigter-ion-auth$ composer config minimum-stability dev$ composer config repositories.ionAuth vcs git@github.com:benedmunds/CodeIgniter-Ion-Auth.git$ composer require benedmunds/CodeIgniter-Ion-Auth:4.x-dev  Codeigniter: Codeigniter  Blog: blog.marcomonteiro.net  Website: marcomonteiro.net  Patreon: patreon.com/tilthings  Youtube: Youtube Channel",
                 "content_html": "<p>On this video we start to create the database for our project.</p><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/m9-NjjTDwXQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe><p>All the code on this video can be seen on the following <a href=\"https://github.com/mpmont/tilthings-ci4-contact-manager\">github repository</a>.</p><p>Repositories used in the project:</p><p><a href=\"https://github.com/benedmunds/CodeIgniter-Ion-Auth/blob/4/INSTALLING.md\">Benedmunds/codeinigter-ion-auth</a></p><div class=\"highlighter-rouge\"><div class=\"highlight\"><pre class=\"highlight\"><code>$ composer config minimum-stability dev$ composer config repositories.ionAuth vcs git@github.com:benedmunds/CodeIgniter-Ion-Auth.git$ composer require benedmunds/CodeIgniter-Ion-Auth:4.x-dev</code></pre></div></div><ul>  <li>Codeigniter: <a href=\"https://codeigniter.com/\">Codeigniter</a></li>  <li>Blog: <a href=\"https://blog.marcomonteiro.net/\">blog.marcomonteiro.net</a></li>  <li>Website: <a href=\"https://marcomonteiro.net/\">marcomonteiro.net</a></li>  <li>Patreon: <a href=\"https://www.patreon.com/tilthings\">patreon.com/tilthings</a></li>  <li>Youtube: <a href=\"https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w\">Youtube Channel</a></li></ul>",
@@ -222,6 +239,16 @@
                 "content_text": "{% for post in site.posts %}{{post.title}}{%endfor%}",
                 "content_html": "{% for post in site.posts %}<a href=\"{{site.baseurl}}{{post.url}}\">{{post.title}}</a>{%endfor%}",
                 "url": "http://localhost:4000/page2/",
+                "date_published": "",
+                "date_modified": ""
+            },
+        
+            {
+                "id": "blog",
+                "title": "Blog",
+                "content_text": "{% for post in site.posts %}{{post.title}}{%endfor%}",
+                "content_html": "{% for post in site.posts %}<a href=\"{{site.baseurl}}{{post.url}}\">{{post.title}}</a>{%endfor%}",
+                "url": "http://localhost:4000/page3/",
                 "date_published": "",
                 "date_modified": ""
             },
