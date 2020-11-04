@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-25T11:34:09+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TIL Things</title><author><name>Til Things</name><email>marco@marcomonteiro.net</email></author><entry><title type="html">Getting to know the command line</title><link href="http://localhost:4000/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line/" rel="alternate" type="text/html" title="Getting to know the command line" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line</id><content type="html" xml:base="http://localhost:4000/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line/">&lt;p&gt;On this video we talk about the most important tool in your linux machine, the command line. In it we go over what is the prompt, what it means and some basic commands like:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-04T19:56:12+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">TIL Things</title><author><name>Til Things</name><email>marco@marcomonteiro.net</email></author><entry><title type="html">How to setup Devilbox</title><link href="http://localhost:4000/posts/devilbox/lamp/docker/docker-compose/2020/11/04/how-to-setup-devilbox/" rel="alternate" type="text/html" title="How to setup Devilbox" /><published>2020-11-04T00:00:00+00:00</published><updated>2020-11-04T00:00:00+00:00</updated><id>http://localhost:4000/posts/devilbox/lamp/docker/docker-compose/2020/11/04/how-to-setup-devilbox</id><content type="html" xml:base="http://localhost:4000/posts/devilbox/lamp/docker/docker-compose/2020/11/04/how-to-setup-devilbox/">&lt;p&gt;Installing and configuring your Devilbox stack is quite easy. But first what is devilbox?&lt;/p&gt;
+
+&lt;p&gt;Here’s the video version:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/PuOoxWxU0IM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The Devilbox is a modern dockerized LAMP and MEAN stack for local development on Linux, MacOS and Windows.&lt;/p&gt;
+
+&lt;p&gt;It allows you to have an unlimited number of projects ready without having to install any external software and without having to configure any virtual hosts. As well as providing a very flexible development stack that you can run offline. (Internet is only required to initially pull docker container).&lt;/p&gt;
+
+&lt;p&gt;The only thing you will have to do is to create a new directory on the filesystem and your virtual host is ready to be served with your custom domain.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/devilbox/artwork/master/submissions_diagrams/cytopia/01/png/architecture-full.png&quot; alt=&quot;devilbox.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s the steps we take on the video to do everything:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/cytopia/devilbox
+cp env-example .env
+sudo docker-compose up --build -d
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Access your http://localhost and then all you need to do is create your project folders.&lt;/p&gt;
+
+&lt;p&gt;That’s it!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Blog: &lt;a href=&quot;https://blog.marcomonteiro.net/&quot;&gt;blog.marcomonteiro.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Website: &lt;a href=&quot;https://marcomonteiro.net/&quot;&gt;marcomonteiro.net&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Patreon: &lt;a href=&quot;https://www.patreon.com/tilthings&quot;&gt;patreon.com/tilthings&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Youtube: &lt;a href=&quot;https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w&quot;&gt;Youtube Channel&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Marco Monteiro</name></author><category term="linux, command line, webdev, lamp" /><summary type="html">Installing and configuring your Devilbox stack is quite easy. But first what is devilbox?</summary></entry><entry><title type="html">Getting to know the command line</title><link href="http://localhost:4000/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line/" rel="alternate" type="text/html" title="Getting to know the command line" /><published>2020-10-25T00:00:00+01:00</published><updated>2020-10-25T00:00:00+01:00</updated><id>http://localhost:4000/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line</id><content type="html" xml:base="http://localhost:4000/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line/">&lt;p&gt;On this video we talk about the most important tool in your linux machine, the command line. In it we go over what is the prompt, what it means and some basic commands like:&lt;/p&gt;
 
 &lt;iframe width=&quot;100%&quot; height=&quot;500&quot; src=&quot;https://www.youtube.com/embed/pBCyCmfXVZ0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
@@ -69,26 +99,4 @@ $ composer require benedmunds/CodeIgniter-Ion-Auth:4.x-dev
 
 &lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/qfYKzf4q5Ig&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Marco Monteiro</name></author><category term="Codeigniter, codeigniter 4, views, mvc, framework, webdev, how to, setup, php" /><summary type="html">Let’s go into a deap dive about Codeigniter 4 Views. On this episode we talk about views. How to use them, how to create them and how to use and create dinamic layouts.</summary></entry><entry><title type="html">Learning Codeigniter 4 - Controllers</title><link href="http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/12/Learning-Codeigniter-4-Controllers/" rel="alternate" type="text/html" title="Learning Codeigniter 4 - Controllers" /><published>2020-07-12T00:00:00+01:00</published><updated>2020-07-12T00:00:00+01:00</updated><id>http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/12/Learning-Codeigniter-4-Controllers</id><content type="html" xml:base="http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/12/Learning-Codeigniter-4-Controllers/">&lt;p&gt;Let’s go into a deap dive about Codeigniter 4 controllers. Here we explore Controllers. How to use them, how to create them and how to extend the BaseController that comes with Codeigniter.&lt;/p&gt;
 
-&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/qy4CVy0P1Gg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Marco Monteiro</name></author><category term="Codeigniter, codeigniter 4, webdev, controllers, tutorial, how to, mvc, framework" /><summary type="html">Let’s go into a deap dive about Codeigniter 4 controllers. Here we explore Controllers. How to use them, how to create them and how to extend the BaseController that comes with Codeigniter.</summary></entry><entry><title type="html">Learning Codeigniter 4 - Folder structure</title><link href="http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/06/learning-codeigniter-4-folder-structure/" rel="alternate" type="text/html" title="Learning Codeigniter 4 - Folder structure" /><published>2020-07-06T00:00:00+01:00</published><updated>2020-07-06T00:00:00+01:00</updated><id>http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/06/learning-codeigniter-4-folder-structure</id><content type="html" xml:base="http://localhost:4000/posts/codeigniter/php/web%20dev/2020/07/06/learning-codeigniter-4-folder-structure/">&lt;p&gt;Let’s go into a deap dive about the codeigniter folder structure.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Codeigniter
-|-- App
-|   |-- Config
-|   |-- Controllers
-|   |-- Database
-|   |-- Filters
-|   |-- Helpers
-|   |-- Language
-|   |-- Libraries
-|   |-- Models
-|   |-- ThirdParty
-|   |-- Views
-|-- Public
-|-- System
-|-- Tests
-|-- Writable
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;This is the basic Codeigniter 4 structure. On this video you’ll learn all about it.&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/pCpIuGSGSsk&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Marco Monteiro</name></author><category term="Codeigniter, php, codeigniter4, webdev, folder structure, tutorial" /><summary type="html">Let’s go into a deap dive about the codeigniter folder structure.</summary></entry></feed>
+&lt;iframe width=&quot;100%&quot; height=&quot;450&quot; src=&quot;https://www.youtube.com/embed/qy4CVy0P1Gg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Marco Monteiro</name></author><category term="Codeigniter, codeigniter 4, webdev, controllers, tutorial, how to, mvc, framework" /><summary type="html">Let’s go into a deap dive about Codeigniter 4 controllers. Here we explore Controllers. How to use them, how to create them and how to extend the BaseController that comes with Codeigniter.</summary></entry></feed>

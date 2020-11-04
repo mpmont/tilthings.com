@@ -12,10 +12,10 @@
         gtag('js', new Date());
         gtag('config', 'UA-173921881-1');
     </script>
-    <title>TIL Things | Blog</title>
+    <title>TIL Things | How to setup Devilbox</title>
     <!--Meta Desc-->
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
+    <meta name="keywords" content="linux, command line, webdev, lamp"/>
+    <meta name="description" content="On this article we talk about installing and configuring devilbox"/>
     <meta name="subject" content="Web development & Linux Stuff">
     <meta name="copyright" content="Marco Monteiro">
     <meta name="language" content="EN">
@@ -30,8 +30,8 @@
 
     <!--Meta Facebook-->
     <meta property="og:image" content=""/>
-    <meta property="og:title" content="TIL Things | Blog"/>
-    <meta property="og:description" content=""/>
+    <meta property="og:title" content="TIL Things | How to setup Devilbox"/>
+    <meta property="og:description" content="On this article we talk about installing and configuring devilbox"/>
     <meta property="og:url" content="https://tilthings.com"/>
     <meta property="og:site_name" content="TIL Things - Today I Leaned Things"/>
     <meta property="og:type" content="blog"/>
@@ -39,8 +39,8 @@
     <!--Meta Twitter-->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@marcogmonteiro">
-    <meta name="twitter:title" content="TIL Things | Blog">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:title" content="TIL Things | How to setup Devilbox">
+    <meta name="twitter:description" content="On this article we talk about installing and configuring devilbox">
     <meta name="twitter:creator" content="@marcogmonteiro">
     <meta name="twitter:domain" content="tilthings.com">
 
@@ -70,33 +70,58 @@
 	
 </nav>
       <!-- page content -->
-      <main class="post-list">
-        
-<a href="/posts/devilbox/lamp/docker/docker-compose/2020/11/04/how-to-setup-devilbox/">How to setup Devilbox</a>
+      <main class="content">
+        <p class="title">
+          How to setup Devilbox <span class="meta">Written By Marco Monteiro <br> November 04, 2020</span>
+        </p>
+        <p>Installing and configuring your Devilbox stack is quite easy. But first what is devilbox?</p>
 
-<a href="/posts/cli/linux/prompt/bash/2020/10/25/Getting-to-know-the-command-line/">Getting to know the command line</a>
+<p>Here’s the video version:</p>
 
-<a href="/posts/codeigniter/php/web%20dev/mysql/2020/10/19/Creating-the-database/">Creating the Database</a>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/PuOoxWxU0IM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/10/15/Creating-a-contact-manager-with-codeigniter-4-installation/">Creating a contact manager with Codeigniter 4 - Installation</a>
+<p>The Devilbox is a modern dockerized LAMP and MEAN stack for local development on Linux, MacOS and Windows.</p>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/10/03/Learning-codeigniter-4-sessions/">Learning Codeigniter 4 - Sessions</a>
+<p>It allows you to have an unlimited number of projects ready without having to install any external software and without having to configure any virtual hosts. As well as providing a very flexible development stack that you can run offline. (Internet is only required to initially pull docker container).</p>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/09/19/Learning-codeigniter-4-model-events/">Learning Codeigniter 4 - Model Events</a>
+<p>The only thing you will have to do is to create a new directory on the filesystem and your virtual host is ready to be served with your custom domain.</p>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/08/22/Learning-codeigniter-4-model-validation/">Learning Codeigniter 4 - Model Validation</a>
+<p><img src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_diagrams/cytopia/01/png/architecture-full.png" alt="devilbox.png" /></p>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/08/04/Learning-codeigniter-4-models/">Learning Codeigniter 4 - Models</a>
+<p>Here’s the steps we take on the video to do everything:</p>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/07/24/Learning-codeigniter-4-views/">Learning Codeigniter 4 - Views</a>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/cytopia/devilbox
+cp env-example .env
+sudo docker-compose up --build -d
+</code></pre></div></div>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/07/12/Learning-Codeigniter-4-Controllers/">Learning Codeigniter 4 - Controllers</a>
+<p>Access your http://localhost and then all you need to do is create your project folders.</p>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/07/06/learning-codeigniter-4-folder-structure/">Learning Codeigniter 4 - Folder structure</a>
+<p>That’s it!</p>
 
-<a href="/posts/codeigniter/php/web%20dev/2020/07/03/how-to-setup-codeigniter/">Learning Codeigniter 4 - How to setup Codeigniter 4</a>
+<ul>
+  <li>Blog: <a href="https://blog.marcomonteiro.net/">blog.marcomonteiro.net</a></li>
+  <li>Website: <a href="https://marcomonteiro.net/">marcomonteiro.net</a></li>
+  <li>Patreon: <a href="https://www.patreon.com/tilthings">patreon.com/tilthings</a></li>
+  <li>Youtube: <a href="https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w">Youtube Channel</a></li>
+</ul>
 
-
+        <div class="post-categories">
+            
+            
+                devilbox
+                &nbsp;
+            
+                lamp
+                &nbsp;
+            
+                docker
+                &nbsp;
+            
+                docker-compose
+                
+            
+        </div>
       </main>
 
       <!-- footer -->
