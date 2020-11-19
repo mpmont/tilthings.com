@@ -4,6 +4,23 @@
     "posts": [
         
             {
+                "title": "How to setup KDE-plasma as a tiling window manager",
+                "content_text": "On this episode I show you how I configure my kde plasma to behave like a tiling window manager.This can be done with just one kwin script and all the rest are normal KDE-Plasma settings.Hope you enjoy my workflow.",
+                "content_html": "<p>On this episode I show you how I configure my kde plasma to behave like a tiling window manager.</p><p>This can be done with just one kwin script and all the rest are normal KDE-Plasma settings.</p><p>Hope you enjoy my workflow.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/L7P3vVbQLfU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
+                "url": "http://localhost:4000/posts/kde/plasma/desktop-environment/window-manage/2020/11/19/how-to-setup-kde-plasma-work-like-a-tiling-window-manager/",
+                
+                
+                "categories": ["kde","plasma","desktop-environment","window-manage"],                
+                
+                "tags": ["linux, command line, webdev, lamp, kde, desktop environment"],
+                "date_published": "2020-11-19T00:00:00+00:00",
+                "date_modified": "2020-11-19T00:00:00+00:00",
+                
+                "author":  "Marco Monteiro" 
+                
+            },
+        
+            {
                 "title": "How to setup Ion Auth for Codeigniter 4",
                 "content_text": "On this episode we take another step foward on our contact manager application. Here we start to setup the authentication system. Since we’re using Ion Auth all we need to do is to create an empty controller that extends to the Ion Auth controller. Change a few things in our config and setup the filter that will take care of the reserved areas.Here’s the video.  Blog: blog.marcomonteiro.net  Website: marcomonteiro.net  Patreon: patreon.com/tilthings  Youtube: Youtube Channel",
                 "content_html": "<p>On this episode we take another step foward on our contact manager application. Here we start to setup the authentication system. Since we’re using Ion Auth all we need to do is to create an empty controller that extends to the Ion Auth controller. Change a few things in our config and setup the filter that will take care of the reserved areas.</p><p>Here’s the video.</p><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/rhdjrnhOElA\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe><ul>  <li>Blog: <a href=\"https://blog.marcomonteiro.net/\">blog.marcomonteiro.net</a></li>  <li>Website: <a href=\"https://marcomonteiro.net/\">marcomonteiro.net</a></li>  <li>Patreon: <a href=\"https://www.patreon.com/tilthings\">patreon.com/tilthings</a></li>  <li>Youtube: <a href=\"https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w\">Youtube Channel</a></li></ul>",
