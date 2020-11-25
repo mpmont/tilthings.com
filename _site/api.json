@@ -4,6 +4,23 @@
     "posts": [
         
             {
+                "title": "Codeigniter 4 - Contact manager and creating the view stucture",
+                "content_text": "On this video we create all the views and the base structure for our project.All the code on this video can be seen on the following github repository.  Codeigniter: Codeigniter  Blog: blog.marcomonteiro.net  Website: marcomonteiro.net  Patreon: patreon.com/tilthings  Youtube: Youtube Channel",
+                "content_html": "<p>On this video we create all the views and the base structure for our project.</p><iframe width=\"100%\" height=\"500\" src=\"https://www.youtube.com/embed/dOKfwy2_WJY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe><p>All the code on this video can be seen on the following <a href=\"https://github.com/mpmont/tilthings-ci4-contact-manager\">github repository</a>.</p><ul>  <li>Codeigniter: <a href=\"https://codeigniter.com/\">Codeigniter</a></li>  <li>Blog: <a href=\"https://blog.marcomonteiro.net/\">blog.marcomonteiro.net</a></li>  <li>Website: <a href=\"https://marcomonteiro.net/\">marcomonteiro.net</a></li>  <li>Patreon: <a href=\"https://www.patreon.com/tilthings\">patreon.com/tilthings</a></li>  <li>Youtube: <a href=\"https://www.youtube.com/channel/UC9HQjernJPHN-RoKMwtYQ4w\">Youtube Channel</a></li></ul>",
+                "url": "http://localhost:4000/posts/codeigniter/php/web%20dev/mysql/2020/11/25/contact-manager-the-view-structure/",
+                
+                
+                "categories": ["Codeigniter","PHP","Web Dev","mysql"],                
+                
+                "tags": ["Codeigniter, codeigniter 4, models, mvc, framework, webdev, how to, setup, php, mysql, datagrip"],
+                "date_published": "2020-11-25T00:00:00+00:00",
+                "date_modified": "2020-11-25T00:00:00+00:00",
+                
+                "author":  "Marco Monteiro" 
+                
+            },
+        
+            {
                 "title": "How to setup KDE-plasma as a tiling window manager",
                 "content_text": "On this episode I show you how I configure my kde plasma to behave like a tiling window manager.This can be done with just one kwin script and all the rest are normal KDE-Plasma settings.Hope you enjoy my workflow.",
                 "content_html": "<p>On this episode I show you how I configure my kde plasma to behave like a tiling window manager.</p><p>This can be done with just one kwin script and all the rest are normal KDE-Plasma settings.</p><p>Hope you enjoy my workflow.</p><iframe width=\"100%\" height=\"450\" src=\"https://www.youtube.com/embed/L7P3vVbQLfU\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen=\"\"></iframe>",
